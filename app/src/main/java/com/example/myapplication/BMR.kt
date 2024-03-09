@@ -68,9 +68,7 @@ class BMR : AppCompatActivity() {
             if(gender == "Male"){
                result2.text = (calculateBMRForMen(weight,height,age)).toString()
             }
-            else if(gender == "Female"){
-                result2.text = (calculateBMRForWomen(weight,height,age)).toString()
-            }
+
         }
         submitButton.setOnClickListener {
         }
